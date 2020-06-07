@@ -5,5 +5,5 @@ import java.io.Serializable
 
 data class FactsResponse(
     val title: String? = null,
-    val rows: List<Facts?>? = null
+    var rows: List<Facts>? = null
 ) : Serializable
